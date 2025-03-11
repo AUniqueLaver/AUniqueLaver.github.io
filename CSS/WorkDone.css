@@ -1,0 +1,260 @@
+
+*
+{
+
+margin: 0px;
+font-family: Verdana;
+
+}
+
+body
+{
+
+overflow-x: hidden;
+
+}
+
+#WorkDonePage
+{
+
+position: relative;
+
+width: 100%;
+height: 840px;
+
+background: #FBFEF9;
+
+}
+
+#WorkDonePage .WorkDoneContainer
+{
+
+position: relative;
+
+display: flex;
+
+flex-direction: column;
+
+width: 100%;
+height: 100%;
+
+padding-top: 12.5%;
+
+/* border: 5px solid black; */
+
+}
+
+#WorkDonePage .WorkDoneContainer .WorkBarBtns
+{
+
+position: relative;
+
+display: flex;
+
+width: 100%;
+height: 20%;
+
+/* border: 5px solid black; */
+
+}
+
+#WorkDonePage .WorkDoneContainer .WorkBarBtns ul
+{
+
+position: relative;
+
+display: flex;
+
+list-style: none;
+
+width: 75%;
+height: 100%;
+
+padding-left: 0;
+
+gap: 5%;
+
+/* border: 5px solid black; */
+
+}
+
+#WorkDonePage .WorkDoneContainer .WorkBarBtns ul li:nth-child(1)
+{
+
+margin-left: 2.5%;
+
+}
+
+#WorkDonePage .WorkDoneContainer .WorkBarBtns ul li
+{
+
+position: relative;
+
+width: 20%;
+height: 70%;
+
+}
+
+#WorkDonePage .WorkDoneContainer .WorkBarBtns ul li .coverBtnRightHidden
+{
+
+margin-top: 5%;
+
+width: 100%;
+height: 100%;
+
+background: #7E1946;
+
+border: 1px solid black;
+
+}
+
+#WorkDonePage .WorkDoneContainer .WorkBarBtns ul li .coverBtnRightHidden .coverBtnBar
+{
+
+background: #A63446;
+
+transition: width, 1s;
+
+}
+
+#WorkDonePage .WorkDoneContainer .WorkDoneText
+{
+
+position: relative;
+
+display: flex;
+
+width: 100%;
+height: 70%;
+
+/* border: 5px solid black; */
+
+}
+
+#WorkDonePage .WorkDoneContainer .WorkDoneText .TextContainer
+{
+
+position: relative;
+
+display: flex;
+
+width: 70%;
+height: 100%;
+
+/* border: 5px solid black; */
+
+/* background: white; */
+
+}
+
+#WorkDonePage .WorkDoneContainer .WorkDoneText .TextContainer .TextDescription
+{
+
+position: relative;
+
+display: flex;
+
+width: 70%;
+height: 100%;
+
+margin-left: 5%;
+
+/* border: 5px solid black; */
+
+background: #7E1946;
+
+
+}
+
+#WorkDonePage .WorkDoneContainer .WorkDoneText .TextContainer .TextDescription .TextStore 
+{
+
+position: relative;
+
+width: 100%;
+height: 40%;
+
+font-size: 16px;
+
+/* border: 5px solid black; */
+
+}
+
+#WorkDonePage .WorkDoneContainer .WorkDoneText .TextContainer .TextDescription .TextStore p
+{
+
+position: relative;
+
+width: 22em;
+
+margin-top: 5%;
+margin-left: 5%;
+
+background: #A63446;
+
+}
+
+#WorkDonePage .WorkDoneContainer .WorkDoneText .TextContainer .TextDescription img
+{
+
+position: absolute;
+
+width: 40%;
+height: 20%;
+
+top: 50%;
+left: 50%;
+
+}
+
+#WorkDonePage .WorkDoneContainer .WorkDoneText .ParagraphExplanation
+{
+
+position: relative;
+
+display: flex;
+
+width: 30%;
+height: 100%;
+
+justify-content: center;
+
+/* border: 5px solid black; */
+
+/* background: blue; */
+
+}
+
+#WorkDonePage .WorkDoneContainer .WorkDoneText .ParagraphExplanation .ParagraphContainer
+{
+
+position: relative;
+
+display: flex;
+
+width: 80%;
+height: 75%;
+
+margin-top: 2.5%;
+
+font-size: 16px;
+
+text-align: center;
+
+background: #A63446;
+
+/* border: 5px solid black; */
+
+}
+
+#WorkDonePage .WorkDoneContainer .WorkDoneText .ParagraphExplanation .ParagraphContainer p
+{
+
+position: relative;
+
+margin-top: 5%;
+
+}
+
+

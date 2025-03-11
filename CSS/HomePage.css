@@ -1,0 +1,243 @@
+
+*
+{
+
+margin: 0px;
+font-family: Verdana;
+
+}
+
+body
+{
+
+overflow-x: hidden;
+
+}
+
+#hero
+{
+
+position: static;
+
+width: 100%;
+height: 840px;
+
+top: 0px;
+
+background: #FBFEF9;
+
+}
+
+#hero .container
+{
+
+position: relative;
+
+display: flex;
+
+width: 75%;
+height: 53%;
+
+/* border: 5px solid black; */
+
+top: 45px;
+left: 55px;
+
+padding-top: 64px;
+
+}
+
+#hero .MenuContainer
+{
+
+position: relative;
+
+display: flex;
+
+width: 100%;
+height: 100%;
+
+}
+
+#hero .MenuContainer .LeftText
+{
+
+position: relative;
+
+display: flex;
+
+width: 25%;
+height: 100%;
+
+/* border: 5px solid black; */
+
+}
+
+#hero .MenuContainer .LeftText .LeftTextParagraph
+{
+
+position: relative;
+
+display: flex;
+
+width: 100%;
+height: 45%;
+
+top: 25%;
+left: 10%;
+
+font-size: 16px;
+
+background: #A63446;
+
+/* border: 5px solid black; */
+
+}
+
+#hero .MenuContainer .LeftText .LeftTextParagraph p
+{
+
+position: relative;
+
+width: 16em;
+
+margin-top: 5%;
+margin-left: 5%;
+
+}
+
+#hero .MenuContainer .MainBox
+{
+
+position: relative;
+
+display: flex;
+
+flex-direction: column;
+
+width: 75%;
+height: 100%;
+
+/* border: 5px solid black; */
+
+}
+
+#hero .MenuContainer .MainBox .MainTextContainer
+{
+
+position: relative;
+
+display: flex;
+
+width: 100%;
+height: 80%;
+
+/* background: yellow; */
+
+/* border: 5px solid black; */
+
+}
+
+#hero .MenuContainer .MainBox .MainTextContainer .MainTextContainerText
+{
+
+position: relative;
+
+display: flex;
+
+width: 75%;
+height: 60%;
+
+top: 20%;
+left: 17.5%;
+
+font-size: 16px;
+
+background: #7E1946;
+
+/* border: 5px solid black; */
+
+}
+
+#hero .MenuContainer .MainBox .MainTextContainer .MainTextContainerText p
+{
+
+position: relative;
+
+width: 16em;
+
+margin: 7.5% 1.5%;
+
+/* border: 5px solid black; */
+
+}
+
+#hero .MenuContainer .MainBox .MainTextContainer .MainTextContainerText img
+{
+
+position: absolute;
+
+width: 45%;
+height: 85%;
+
+bottom: 30%;
+left: 50%;
+
+/* border: 5px solid black; */
+
+}
+
+#hero .MenuContainer .MainBox .NavBarBottom
+{
+
+position: relative;
+
+display: flex;
+
+width: 100%;
+height: 20%;
+
+/* background: tan; */
+
+/* border: 5px solid black; */
+
+}
+
+#hero .MenuContainer .MainBox .NavBarBottom .coverBtnRightHidden
+{
+
+height: 30%;
+
+margin-top: 5%;
+margin-left: 70%;
+
+border: 5px solid black;
+
+}
+
+#hero .MenuContainer .MainBox .NavBarBottom .coverBtnRightHidden
+{
+
+background: #0C6291;
+
+}
+
+#hero .MenuContainer .MainBox .NavBarBottom .coverBtnRightHidden .coverBtnBar
+{
+
+background: #A63446;
+
+
+}
+#homeSecond
+{
+
+position: relative;
+
+width: 100%;
+height: 1024px;
+
+background: grey;
+
+}
+

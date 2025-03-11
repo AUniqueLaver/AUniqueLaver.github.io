@@ -1,0 +1,213 @@
+
+*
+{
+
+margin: 0px;
+font-family: Verdana;
+
+}
+
+body
+{
+
+overflow-x: hidden;
+
+}
+
+#AboutPage
+{
+
+position: relative;
+
+width: 100%;
+height: 840px;
+
+background: #FBFEF9;
+
+}
+
+#AboutPage .Container
+{
+
+position: relative;
+
+display: flex;
+
+width: 100%;
+height: 100%;
+
+/* border: 5px solid black; */
+
+}
+
+#AboutPage .Container .AboutText
+{
+
+position: relative;
+
+display: flex;
+
+width: 65%;
+height: 100%;
+
+/* border: 5px solid black; */
+
+}
+
+#AboutPage .Container .AboutText .AboutBox
+{
+
+position: absolute;
+
+display: flex;
+
+width: 90%;
+height: 90%;
+
+background: #A63446;
+
+border: 5px solid black;
+
+}
+
+#AboutPage .Container .AboutText .AboutBox:nth-child(1)
+{
+
+top: 2.5%;
+left: 5%; 
+
+}
+
+#AboutPage .Container .AboutText .AboutBox:nth-child(2)
+{
+
+top: 5%;
+left: 10%; 
+
+justify-content: center;
+
+font-size: 22px;
+
+}
+
+#AboutPage .Container .AboutText .AboutBox:nth-child(2) span
+{
+
+position: relative;
+
+width: 80%;
+height: 75%;
+
+margin-top: 5%;
+
+/* background: grey; */
+
+/* border: 5px solid black; */
+
+}
+
+#AboutPage .Container .AboutText .AboutBox:nth-child(2) span p
+{
+
+position: relative;
+
+margin-top: 5%;
+margin-left: 5%;
+
+width: 20em;
+
+}
+
+#AboutPage .Container .AboutRightText
+{
+
+position: relative;
+
+display: flex;
+
+width: 35%;
+height: 100%;
+
+justify-content: center;
+align-items: center;
+
+/* border: 5px solid black; */
+
+}
+
+#AboutPage .Container .AboutRightText .Container
+{
+
+position: relative;
+
+display: flex;
+
+flex-direction: column;
+
+width: 80%;
+height: 90%;
+
+align-items: center;
+
+background: #0C6291;
+
+/* border: 5px solid black; */
+
+}
+
+#AboutPage .Container .AboutRightText .Container .coverBtnRightHidden
+{
+
+width: 80%;
+
+margin-top: 30%;
+
+background: #7E1946;
+
+border: 1px solid black;
+
+}
+
+#AboutPage .Container .AboutRightText .Container .coverBtnRightHidden .coverBtnBar
+{
+
+background: #A63446;
+
+}
+
+#AboutPage .Container .AboutRightText .Container .coverBtnRightHidden p
+{
+
+font-size: 2rem;
+
+}
+
+#AboutPage .Container .AboutRightText .Container .Text
+{
+
+position: relative;
+
+width: 80%;
+height: 60%;
+
+margin-top: 20%;
+
+font-size: 14px;
+
+background: #7E1946;
+
+border: 1px solid black;
+
+}
+
+#AboutPage .Container .AboutRightText .Container .Text p
+{
+
+position: relative;
+
+width: 16em;
+
+margin: 5%;
+
+}
+

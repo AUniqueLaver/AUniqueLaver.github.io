@@ -1,0 +1,234 @@
+
+*
+{
+
+margin: 0px;
+font-family: Verdana;
+
+}
+
+body
+{
+
+overflow-x: hidden;
+
+}
+
+#CollaboratedProjectsPage
+{
+
+position: relative;
+
+width: 100%;
+height: 840px;
+
+background: #FBFEF9;
+
+}
+
+#CollaboratedProjectsPage .CollaboratedProjectsContainer
+{
+
+position: relative;
+
+display: flex;
+
+width: 100%;
+height: 100%;
+
+/* border: 5px solid black; */
+
+}
+
+#CollaboratedProjectsPage .CollaboratedProjectsContainer .HeaderContainer
+{
+
+position: relative;
+
+display: flex;
+
+flex-direction: column;
+
+width: 75%;
+height: 100%;
+
+margin-top: 5%;
+
+/* background: yellow; */
+
+/* border: 5px solid black; */
+
+}
+
+#CollaboratedProjectsPage .CollaboratedProjectsContainer .HeaderContainer .HeaderTop
+{
+
+position: relative;
+
+width: 100%;
+height: 20%;
+
+/* border: 5px solid black; */
+
+}
+
+#CollaboratedProjectsPage .CollaboratedProjectsContainer .HeaderContainer .HeaderTop .Text
+{
+
+position: relative;
+
+width: 100%;
+height: 85%;
+
+margin-top: 2.5%;
+margin-left: 5%;
+
+font-size: 22px;
+
+background: #A63446;
+
+/* border: 5px solid black; */
+
+}
+
+#CollaboratedProjectsPage .CollaboratedProjectsContainer .HeaderContainer .HeaderTop .Text p
+{
+
+position: relative;
+
+margin-top: 1%;
+margin-left: 5%;
+
+padding-top: 1%;
+
+/* border: 5px solid black; */
+
+width: 32em;
+
+}
+
+#CollaboratedProjectsPage .CollaboratedProjectsContainer .HeaderContainer .TextContainer
+{
+
+position: relative;
+
+display: flex;
+
+width: 100%;
+height: 80%;
+
+/* border: 5px solid black; */
+
+}
+
+#CollaboratedProjectsPage .CollaboratedProjectsContainer .HeaderContainer .TextContainer .Text
+{
+
+position: relative;
+
+font-size: 16px;
+
+}
+
+#CollaboratedProjectsPage .CollaboratedProjectsContainer .HeaderContainer .TextContainer .Text p
+{
+
+position: relative;
+
+width: 22em;
+
+margin-top: 75%;
+margin-left: 1%;
+
+}
+
+#CollaboratedProjectsPage .CollaboratedProjectsContainer .HeaderContainer .TextContainer .Text:nth-child(1)
+{
+
+position: relative;
+
+display: flex;
+
+width: 30%;
+height: 70%;
+
+align-self: end;
+
+margin-left: 5%;
+
+background: #A63446;
+
+/* border: 5px solid black; */
+
+}
+
+#CollaboratedProjectsPage .CollaboratedProjectsContainer .HeaderContainer .TextContainer .Text:nth-child(2)
+{
+
+position: relative;
+
+display: flex;
+
+width: 30%;
+height: 95%;
+
+margin-left: 20%;
+
+align-self: end;
+
+background: #A63446;
+
+/* border: 5px solid black; */
+
+}
+
+#CollaboratedProjectsPage .CollaboratedProjectsContainer .RightText
+{
+
+position: relative;
+
+display: flex;
+
+width: 25%;
+height: 100%;
+
+/* background: green; */
+
+/* border: 5px solid black; */
+
+}
+
+#CollaboratedProjectsPage .CollaboratedProjectsContainer .RightText .RightParagraph
+{
+
+position: relative;
+
+display: flex;
+
+width: 80%;
+height: 40%;
+
+margin-top: 90%;
+margin-left: 10%;
+
+font-size: 16px;
+
+background: #7E1946;
+
+/* border: 5px solid black; */
+
+}
+
+#CollaboratedProjectsPage .CollaboratedProjectsContainer .RightText .RightParagraph p
+{
+
+position: relative;
+
+width: 16em;
+
+padding: 5%;
+
+/* border: 5px solid black; */
+
+}
+

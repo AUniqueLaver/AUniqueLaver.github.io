@@ -1,0 +1,172 @@
+
+*
+{
+
+margin: 0px;
+font-family: Verdana;
+
+}
+
+body
+{
+
+overflow-x: hidden;
+
+}
+
+#DownloadsPage
+{
+
+position: relative;
+
+width: 100%;
+height: 840px;
+
+background: #FBFEF9;
+
+}
+
+#DownloadsPage .DownloadTextContainer
+{
+
+position: relative;
+
+display: flex;
+
+width: 100%;
+height: 100%;
+
+/* border: 5px solid black; */
+
+}
+
+#DownloadsPage .DownloadTextContainer .DownloadText
+{
+
+position: relative;
+
+display: flex;
+
+flex-direction: column;
+
+width: 75%;
+height: 100%;
+
+padding-top: 1%;
+
+gap: 5% 0;
+
+/* border: 5px solid black; */
+
+}
+
+#DownloadsPage .DownloadTextContainer .DownloadText .Item
+{
+
+position: relative;
+
+display: flex;
+
+width: 100%;
+height: 20%;
+
+font-size: 16px;
+
+background: #A63446;
+
+/* border: 5px solid black; */
+
+}
+
+#DownloadsPage .DownloadTextContainer .DownloadText .Item:nth-child(1)
+{
+
+margin-top: 5%;
+
+}
+
+#DownloadsPage .DownloadTextContainer .DownloadText .Item p
+{
+
+position: relative;
+
+width: 22em;
+
+margin-top: 5%;
+margin-left: 5%;
+
+}
+
+#DownloadsPage .DownloadTextContainer .DownloadText .Item:nth-child(1) p
+{
+
+width: 64em;
+
+}
+
+#DownloadsPage .DownloadTextContainer .DownloadText .Item:nth-child(2)
+{
+
+width: 80%;
+
+}
+
+#DownloadsPage .DownloadTextContainer .DownloadText .Item:nth-child(3)
+{
+
+width: 30%;
+
+}
+
+#DownloadsPage .DownloadTextContainer .DownloadText .Item:nth-child(4)
+{
+
+width: 60%;
+
+}
+
+#DownloadsPage .DownloadTextContainer .DownloadTextAdditional
+{
+
+position: relative;
+
+display: flex;
+
+width: 25%;
+height: 100%;
+
+justify-content: center;
+align-items: center;
+
+/* border: 5px solid black; */
+
+}
+
+#DownloadsPage .DownloadTextContainer .DownloadTextAdditional .DownloadParagraph
+{
+
+position: relative;
+
+width: 85%;
+height: 70%;
+
+font-size: 22px;
+
+background: #7E1946;
+
+/* border: 5px solid black; */
+
+}
+
+#DownloadsPage .DownloadTextContainer .DownloadTextAdditional .DownloadParagraph p
+{
+
+position: relative;
+
+width: 10em;
+
+margin-top: 5%;
+margin-left: 5%;
+
+}
+
