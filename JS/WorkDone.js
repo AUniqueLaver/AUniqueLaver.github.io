@@ -3,6 +3,15 @@ window.addEventListener("load",
 (event) =>
 {
 
+workHeaderBtns = document.querySelector("#WorkDonePage .WorkBarBtns").getElementsByTagName("ul");
+
+for(i = 0; i < workHeaderBtns.length; i++)
+{
+
+// workHeaderBtns.item(i).
+
+}
+
 workBtn = document.querySelector("#WorkDonePage .WorkBarBtns li:nth-child(1)");
 
 workBtn.addEventListener("click", 
@@ -26,6 +35,10 @@ paragraphText = document.createTextNode(paragraphDescription);
 paragraphElement.appendChild(paragraphText);
 
 workDoneText.appendChild(paragraphElement);
+
+workDoneImg = document.querySelector("#WorkDonePage .WorkDoneText .TextContainer .TextDescription img"); 
+
+workDoneImg.src = "./Assets/CPU.jpeg";
 
 }
 
@@ -55,6 +68,11 @@ paragraphElement.appendChild(paragraphText);
 
 workDoneText.appendChild(paragraphElement);
 
+workDoneImg = document.querySelector("#WorkDonePage .WorkDoneText .TextContainer .TextDescription img"); 
+
+console.log(workDoneImg.src);
+workDoneImg.src = "./Assets/Network.jpeg";
+
 }
 
 );
@@ -82,6 +100,10 @@ paragraphElement.appendChild(paragraphText);
 
 workDoneText.appendChild(paragraphElement);
 
+workDoneImg = document.querySelector("#WorkDonePage .WorkDoneText .TextContainer .TextDescription img"); 
+
+workDoneImg.src = "./Assets/MobileApp.png";
+
 }
 
 );
@@ -108,6 +130,10 @@ paragraphText = document.createTextNode(paragraphDescription);
 paragraphElement.appendChild(paragraphText);
 
 workDoneText.appendChild(paragraphElement);
+
+workDoneImg = document.querySelector("#WorkDonePage .WorkDoneText .TextContainer .TextDescription img"); 
+
+workDoneImg.src = "./Assets/OnlineWorld.jpeg";
 
 }
 
