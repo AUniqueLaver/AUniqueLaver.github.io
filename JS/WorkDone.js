@@ -102,7 +102,7 @@ workDoneText.appendChild(paragraphElement);
 
 workDoneImg = document.querySelector("#WorkDonePage .WorkDoneText .TextContainer .TextDescription img"); 
 
-workDoneImg.src = "./Assets/MobileApp.png";
+workDoneImg.src = "./Assets/Apple.png";
 
 }
 

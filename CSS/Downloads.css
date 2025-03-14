@@ -68,7 +68,7 @@ position: relative;
 display: flex;
 
 width: 100%;
-height: 20%;
+height: 17.5%;
 
 font-size: 16px;
 
@@ -81,7 +81,7 @@ background: #A63446;
 #DownloadsPage .DownloadTextContainer .DownloadText .Item:nth-child(1)
 {
 
-margin-top: 5%;
+margin-top: 10%;
 
 }
 
@@ -122,6 +122,8 @@ width: 30%;
 {
 
 width: 60%;
+
+margin-bottom: 10%;
 
 }
 

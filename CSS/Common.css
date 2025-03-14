@@ -20,6 +20,49 @@ z-index: 4;
 
 }
 
+.navBarHidden .ImgContainer
+{
+
+position: absolute;
+
+display: flex;
+
+width: 100%;
+height: 100%;
+
+justify-content: center;
+
+/* border: 5px solid black; */
+
+}
+
+.navBarHidden img
+{
+
+position: absolute;
+
+width: 5%;
+height: 30%;
+
+margin-top: 2.5%;
+
+opacity: 100%;
+
+/* border: 5px solid black; */
+
+transition: opacity 1s;
+
+z-index: 5;
+
+}
+
+.navBarHidden:hover img
+{
+
+opacity: 0;
+
+}
+
 .navBarShown
 {
 

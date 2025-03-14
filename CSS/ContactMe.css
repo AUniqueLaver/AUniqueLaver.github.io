@@ -45,8 +45,10 @@ height: 100%;
 
 position: relative;
 
-width: 100%;
+width: 90%;
 height: 20%;
+
+margin-left: 10%;
 
 font-size: 16px;
 
@@ -102,6 +104,18 @@ margin-left: 5%;
 
 }
 
+#ContactPage .ContactContainer ul li img
+{
+
+position: absolute;
+
+width: 10%;
+height: 60%;
+
+margin-left: 60%;
+
+}
+
 #ContactPage .ContactContainer ul li p
 {
 
@@ -131,7 +145,7 @@ position: relative;
 position: relative;
 
 width: 80%;
-height: 70%;
+height: 80%;
 
 margin-top: 5%;
 margin-left: 2.5%;
